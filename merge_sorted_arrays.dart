@@ -1,5 +1,6 @@
 import "dart:math";
 void main(){
+  // It merges sorted arrays and also ignores the repetitive element
   List mergeSortedArrays(List arr1, List arr2){
     if(arr1 == null || arr2 == null){
       return ["Wrong Input"];
