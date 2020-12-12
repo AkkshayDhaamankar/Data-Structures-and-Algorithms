@@ -18,11 +18,14 @@ void main(){
 // Using built in method
   String reverseString2(String s) {
   return s.split('').reversed.join();
-}
+  }
+
+  String reverseString3(String s) => s.split('').reversed.join();
 
 
   print(reverseString("Hello World!"));
   print(reverseString2("Hello World! 2"));
+  print(reverseString3("Hello World! 3"));
   print(reverseString(null));
   print(reverseString(""));
   print(reverseString(123));
