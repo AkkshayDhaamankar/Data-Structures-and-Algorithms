@@ -30,3 +30,11 @@ void main(){
   print(reverseString(""));
   print(reverseString(123));
 }
+
+// OUTPUT :-
+// !dlroW olleH
+// 2 !dlroW olleH
+// 3 !dlroW olleH
+// Enter proper string to reverse
+// Enter proper string to reverse
+// Enter proper string to reverse
